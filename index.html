@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>To Do Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body onload="clearAll()">
+	<div class="container">
+		
+	<h1 class="text-center text-dark">TO-DO APP</h1><br/>
+<div class="row">
+		<div class="col-md-3"></div>
+
+		<div class="col-md-4">
+	<input type="text" class="form-control" placeholder="Input your Task" id='task'>
+		</div>
+
+		<div class="col-md-2">
+			<button type="button" class="btn btn-block btn-info" onclick="addTask()">Add Task <span class="glyphicon glyphicon-plus"> </span></button>
+		</div>
+		
+		
+
+		<div class="col-md-3"></div>
+</div><!--end of row -->
+	
+<br/>
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+
+<div id='tasks'>
+
+
+
+</div>
+
+</div>
+<div class="col-md-3"></div>
+
+</div><!--End of row 2 -->
+
+
+
+</div> <!-- End of container -->
+<script src="Script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
