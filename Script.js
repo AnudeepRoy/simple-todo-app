@@ -15,11 +15,11 @@ addTask = () =>{
 	if(info){
 	document.getElementById('tasks').insertAdjacentHTML ('beforeend',`
 			<div class="alert alert-${colors[ran]} alert-dismissible fade show">
-	  <button type="button" class="close" data-dismiss='alert'>&times;</button>
-	  		${info}
-	</div>
+	  			<button type="button" class="close btn" data-dismiss='alert'><i class="fa fa-trash" aria-hidden="true"></i>
+					</button>
+	  				${info}
+			</div>
 		`)
 	}
 	document.getElementById('task').value = '';
 }
-
